@@ -32,7 +32,14 @@ const Icon = ({
 		| 'github'
 		| 'skype'
 		| 'google'
-		| 'freelancer';
+		| 'freelancer'
+		| 'user'
+		| 'web'
+		| 'design'
+		| 'app'
+		| 'wordpress'
+		| 'android'
+		| 'ios';
 }) => {
 	const [iconList] = useState({
 		code: <BsCodeSquare />,

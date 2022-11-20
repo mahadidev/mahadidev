@@ -15,12 +15,31 @@ export interface siteState {
 		icon: string;
 	}[];
 	services: {
+		icon:
+			| 'code'
+			| 'menu'
+			| 'menuClose'
+			| 'home'
+			| 'project'
+			| 'contact'
+			| 'facebook'
+			| 'github'
+			| 'skype'
+			| 'google'
+			| 'freelancer'
+			| 'user'
+			| 'web'
+			| 'design'
+			| 'app'
+			| 'wordpress'
+			| 'android'
+			| 'ios';
 		title: string;
-		desc: string;
-		icon: string;
+		description: string;
+		buttonText: string;
 	}[];
 	project: {
-		title: string;
+		name: string;
 		tag: string[];
 		link: string | boolean;
 		thumbnail: string;
@@ -88,76 +107,84 @@ const initialState: siteState = {
 	services: [
 		{
 			title: 'Backend Development',
-			desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elitdsdg egn Sollicitudin dignissim.',
+			description:
+				'Lorem ipsum dolor sit amet, consectetur adipiscing elitdsdg egn Sollicitudin dignissim.',
 			icon: 'app',
+			buttonText: 'Get Now',
 		},
 		{
 			title: 'Web Design',
-			desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elitdsdg egn Sollicitudin dignissim.',
+			description:
+				'Lorem ipsum dolor sit amet, consectetur adipiscing elitdsdg egn Sollicitudin dignissim.',
 			icon: 'web',
+			buttonText: 'Get Now',
 		},
 		{
 			title: 'Android Development',
-			desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elitdsdg egn Sollicitudin dignissim.',
+			description:
+				'Lorem ipsum dolor sit amet, consectetur adipiscing elitdsdg egn Sollicitudin dignissim.',
 			icon: 'android',
+			buttonText: 'Get Now',
 		},
 		{
 			title: 'IOS Development',
-			desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elitdsdg egn Sollicitudin dignissim.',
+			description:
+				'Lorem ipsum dolor sit amet, consectetur adipiscing elitdsdg egn Sollicitudin dignissim.',
 			icon: 'ios',
+			buttonText: 'Get Now',
 		},
 	],
 	project: [
 		{
-			title: 'Cosmetics Shop',
+			name: 'Cosmetics Shop',
 			tag: ['WordPress', 'jQuery', 'BootStrap'],
 			link: 'https://beauty-boulevard.se',
 			thumbnail: 'projects/beauty_boulevard/thumbnail.png',
 		},
 		{
-			title: 'Kina Kata',
+			name: 'Kina Kata',
 			tag: ['HTML', 'BootStrap', 'jQuery', 'PHP'],
 			link: '#',
 			thumbnail: 'projects/kina_kata/thumbnail.png',
 		},
 		{
-			title: 'Equipment Rental',
+			name: 'Equipment Rental',
 			tag: ['React', 'BootStrap'],
 			link: '#',
 			thumbnail: 'projects/geo_rental_ab/thumbnail.png',
 		},
 		{
-			title: 'Delivery Services',
+			name: 'Delivery Services',
 			tag: ['React', 'BootStrap'],
 			link: 'https://stockholmseltech.se',
 			thumbnail: 'projects/stockholmseltech/thumbnail.png',
 		},
 		{
-			title: 'UK Restaurant',
+			name: 'UK Restaurant',
 			tag: ['HTML', 'BootStrap', 'jQuery', 'PHP'],
 			link: 'https://www.ohindia.co.uk/',
 			thumbnail: 'projects/oh_india/thumbnail.png',
 		},
 		{
-			title: 'Restaurant Website',
+			name: 'Restaurant Website',
 			tag: ['HTML', 'BootStrap', 'jQuery', 'PHP'],
 			link: '#',
 			thumbnail: 'projects/on_india_2/thumbnail.png',
 		},
 		{
-			title: 'Halal Foods',
+			name: 'Halal Foods',
 			tag: ['HTML', 'BootStrap', 'jQuery', 'PHP'],
 			link: '#',
 			thumbnail: 'projects/halal_food/thumbnail.png',
 		},
 		{
-			title: 'AVS Portal',
+			name: 'AVS Portal',
 			tag: ['HTML', 'BootStrap', 'jQuery', 'PHP'],
 			link: '#',
 			thumbnail: 'projects/avs_portal/thumbnail.png',
 		},
 		// {
-		// 	title: 'Engineering Company',
+		// 	name: 'Engineering Company',
 		// 	tag: ['WordPress', 'PHP', 'JavaScript', 'BootStrap'],
 		// 	link: 'https://beauty-boulevard.se',
 		// 	thumbnail: 'projects/haynes_cad/thumbnail.png',
