@@ -109,7 +109,7 @@ export const ProjectBox = styled('div')`
 	max-width: 400px;
 	margin: 0 0 0 auto;
 
-	@media (max-width: 768px) {
+	@media (max-width: 1280px) {
 		margin: auto;
 	}
 `;

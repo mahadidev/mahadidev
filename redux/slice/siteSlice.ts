@@ -58,11 +58,6 @@ const initialState: siteState = {
 			icon: 'project',
 		},
 		{
-			name: 'Review',
-			link: '#',
-			icon: 'review',
-		},
-		{
 			name: 'Contact',
 			link: '#',
 			icon: 'contact',

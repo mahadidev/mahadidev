@@ -138,4 +138,5 @@ const Card = styled('div')<{
 `;
 
 export { default as Icon } from './icon';
+export { default as SectionTitle } from './sectionTitle';
 export { Container, Button, Card };

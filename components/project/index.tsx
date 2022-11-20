@@ -2,16 +2,13 @@ import React from 'react';
 import Masonry from 'react-masonry-css';
 import styled from 'styled-components';
 import { RootState, useSelector } from '../../redux';
-import { Container } from '../subComponents';
+import { Container, SectionTitle } from '../subComponents';
 
 const Project = () => {
 	const SiteState = useSelector((state: RootState) => state.site);
 
 	const Section = styled('section')`
 		width: 100%;
-		min-height: 100vh;
-		display: flex;
-		align-items: center;
 		padding: 4rem 0;
 	`;
 
@@ -70,6 +67,11 @@ const Project = () => {
 	return (
 		<Section>
 			<Container>
+				<SectionTitle
+					title="Recent Works"
+					description="There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration."
+					align="left"
+				/>
 				<ProjectWrapper>
 					{SiteState.project.map((item: any, i: number) => (
 						<Item key={i}>

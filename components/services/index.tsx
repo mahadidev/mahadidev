@@ -2,7 +2,7 @@ import React from 'react';
 import { useInView } from 'react-intersection-observer';
 import styled from 'styled-components';
 import { RootState, setBg, useDispatch, useSelector } from '../../redux';
-import { Container, Icon } from '../subComponents';
+import { Container, Icon, SectionTitle } from '../subComponents';
 import {
 	CardEffect,
 	Desc,
@@ -11,7 +11,6 @@ import {
 	ItemButton,
 	Paragraph,
 	Section,
-	SectionTitle,
 	SemiTitle,
 	Title,
 	TopContent,
@@ -36,15 +35,12 @@ const Services = () => {
 		<div ref={ref}>
 			<Section>
 				<Container className="services__container">
-					<TopContent>
-						<SemiTitle>SERVICES</SemiTitle>
-						<SectionTitle>SERVICE OFFERS</SectionTitle>
-						<Desc>
-							We are a global group of young professionals passionate about web
+					<SectionTitle
+						title="SERVICE OFFERS"
+						description="We are a global group of young professionals passionate about web
 							development and design. Our mission is to help you grow your
-							business
-						</Desc>
-					</TopContent>
+							business"
+					/>
 					<Wrapper>
 						{siteState.services.map((item: any, i: number) => (
 							<Item key={i}>
