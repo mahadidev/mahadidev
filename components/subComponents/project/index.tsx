@@ -1,5 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
+import { Grid, GridItem } from '../index';
 
 const Project = ({
 	thumbnail,
@@ -34,8 +35,10 @@ const Project = ({
 	`;
 
 	const Name = styled('h1')`
-		font-size: ${(props) => props.theme.fontSize.lg};
-		margin-top: 1rem;
+		font-size: ${(props) => props.theme.fontSize.base};
+		color: ${(props) => props.theme.color.text};
+		font-weight: bold;
+		cursor: pointer;
 	`;
 
 	const Tags = styled('div')`
@@ -43,9 +46,16 @@ const Project = ({
 		gap: 0.3rem;
 	`;
 
-	const Tag = styled('h1')`
+	const Tag = styled('span')`
 		font-size: ${(props) => props.theme.fontSize.sm};
-		color: ${(props) => `rgb(${props.theme.color.black} / 50%)`};
+		color: ${(props) => props.theme.color.textLight};
+	`;
+
+	const Links = styled('a')`
+		color: ${(props) => `rgb(${props.theme.color.secondary})`};
+		text-decoration: underline;
+		cursor: pointer;
+		text-transform: uppercase;
 	`;
 
 	return (
@@ -53,7 +63,19 @@ const Project = ({
 			<Thumbnail>
 				<img src={thumbnail} alt={'Project Thumbnail'} />
 			</Thumbnail>
-			<Name>{name}</Name>
+			<Grid
+				width="100%"
+				column="auto auto"
+				alignItem="center"
+				margin="1rem 0 0 0"
+				justifyContent="space-between"
+			>
+				<Name>{name}</Name>
+				<Grid width="max-content" column="auto auto" gap={'1rem'}>
+					<Links>Source</Links>
+					<Links>Visit</Links>
+				</Grid>
+			</Grid>
 			<Tags>
 				{tag.map((tagItem: string, tagI: number) => (
 					<Tag key={tagI}>{tagItem},</Tag>

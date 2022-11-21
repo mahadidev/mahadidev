@@ -41,13 +41,19 @@ const Detail = ({
 		padding: 2rem 1rem;
 		border-radius: 0.5rem;
 		transition: all 0.2s ease-in-out;
-
-		&:hover {
-			box-shadow: 0 0 #0000, 0 0 #0000, 0px 34px 68px rgb(0 0 0 / 6%);
-		}
+		box-shadow: 0 0 #0000, 0 0 #0000, 0px 34px 68px rgb(0 0 0 / 6%);
 
 		button {
 			display: block;
+			margin: 1rem auto 0 auto;
+		}
+
+		a {
+			color: ${(props) => `rgb(${props.theme.color.secondary})`};
+			display: block;
+			text-decoration: underline;
+			cursor: pointer;
+			text-align: center;
 			margin: 1rem auto 0 auto;
 		}
 	`;
@@ -56,22 +62,23 @@ const Detail = ({
 		width: max-content;
 		padding: 0.5rem;
 		border-radius: 0.5rem;
-		background: ${(props) => `rgb(${props.theme.color.primary})`};
+		background: ${(props) => `rgb(${props.theme.color.white})`};
 		display: flex;
 		align-items: center;
-		color: ${(props) => `rgb(${props.theme.color.white})`};
+		color: ${(props) => props.theme.color.text};
 		font-size: ${(props) => props.theme.fontSize.xl};
 		margin: 0 auto 0.5rem auto;
 	`;
 
 	const Title = styled('h1')`
 		font-size: ${(props) => props.theme.fontSize.lg};
+		color: ${(props) => props.theme.color.text};
 		text-align: center;
 	`;
 
 	const Paragraph = styled('p')`
 		font-size: ${(props) => props.theme.fontSize.base};
-		color: ${(props) => `rgb(${props.theme.color.black} / 70%)`};
+		color: ${(props) => props.theme.color.textLight};
 		margin-top: 0.5rem;
 		text-align: center;
 	`;
@@ -83,7 +90,7 @@ const Detail = ({
 			</IconWrapper>
 			<Title>{title}</Title>
 			<Paragraph>{description}</Paragraph>
-			<Button>{buttonText}</Button>
+			<a>{buttonText}</a>
 		</Card>
 	);
 };

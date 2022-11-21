@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import { createGlobalStyle, ThemeProvider } from 'styled-components';
-import { Contact, Intro, Project, Services } from '../components';
+import { Clients, Contact, Intro, Project, Services } from '../components';
 import { RootState, useSelector } from '../redux';
 
 const HomePage = () => {

@@ -24,6 +24,10 @@ const ProjectBook = ({
 		max-width: ${width ? width : '100%'};
 		margin: ${margin};
 		padding: 0 2rem;
+
+		.swiper-slide {
+			border-radius: 1rem;
+		}
 	`;
 
 	return (

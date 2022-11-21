@@ -15,6 +15,7 @@ const TypingTitle = ({
 	const Wrapper = styled('div')`
 		h1 {
 			font-size: ${(props) => props.theme.fontSize.xl};
+			color: ${(props) => props.theme.color.text};
 
 			@media (max-width: 768px) {
 				font-size: ${(props) => props.theme.fontSize.lg};
@@ -24,7 +25,7 @@ const TypingTitle = ({
 
 	const Paragraph = styled('p')`
 		font-size: ${(props) => props.theme.fontSize.base};
-		color: ${(props) => `rgb(${props.theme.color.black} / 70%)`};
+		color: ${(props) => props.theme.color.textLight};
 		margin-bottom: 1rem;
 	`;
 

@@ -21,7 +21,7 @@ const Intro = () => {
 		threshold: 0.5,
 		onChange(inView, entry) {
 			if (inView) {
-				dispatch(setBg({ bg: `rgb(${themeState.color.primary} / 5%)` }));
+				// dispatch(setBg({ bg: `rgb(${themeState.color.primary} / 5%)` }));
 			}
 		},
 	});
@@ -32,6 +32,7 @@ const Intro = () => {
 			height={`calc(100vh - ${siteState.navHeight}px)`}
 			margin={`${siteState.navHeight}px 0 0 0`}
 			align={'center'}
+			bg={`rgb(${themeState.color.primary} / 5%)`}
 		>
 			<Container>
 				<Grid

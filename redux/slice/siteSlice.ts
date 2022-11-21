@@ -55,6 +55,11 @@ export interface siteState {
 		feedback: string;
 		star: number;
 	}[];
+	client: {
+		name: string;
+		logo: string;
+		link: string;
+	}[];
 }
 
 const initialState: siteState = {
@@ -243,6 +248,48 @@ const initialState: siteState = {
 			url: 'https://www.freelancer.com/projects/laravel/Laravel-developer-NEEDED-NOW-change',
 			feedback: 'hieghly recommended. quality and on time delivery.  ',
 			star: 5,
+		},
+	],
+	client: [
+		{
+			name: 'name',
+			logo: '',
+			link: '',
+		},
+		{
+			name: 'name',
+			logo: '',
+			link: '',
+		},
+		{
+			name: 'name',
+			logo: '',
+			link: '',
+		},
+		{
+			name: 'name',
+			logo: '',
+			link: '',
+		},
+		{
+			name: 'name',
+			logo: '',
+			link: '',
+		},
+		{
+			name: 'name',
+			logo: '',
+			link: '',
+		},
+		{
+			name: 'name',
+			logo: '',
+			link: '',
+		},
+		{
+			name: 'name',
+			logo: '',
+			link: '',
 		},
 	],
 };

@@ -9,6 +9,7 @@ export interface themeState {
 		secondary: string;
 		text: string;
 		textLight: string;
+		purple: string;
 	};
 	fontSize: {
 		xs: string;
@@ -25,10 +26,11 @@ const initialState: themeState = {
 	color: {
 		white: '255 255 255',
 		black: '0 0 0',
-		primary: '0 111 255',
-		secondary: '9 14 52',
+		primary: '41 74 218',
+		secondary: '249 0 77',
 		text: 'rgb(0 0 0 / 80%)',
 		textLight: 'rgb(0 0 0 / 70%)',
+		purple: '30, 34, 53',
 	},
 	fontSize: {
 		xs: '0.75rem',

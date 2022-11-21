@@ -31,6 +31,7 @@ export const Grid = styled('div')<{
 }>`
 	width: 100%;
 	max-width: ${(props) => props.width};
+	height: fit-content;
 	margin: ${(props) => props.margin};
 	display: ${(props) => (props.display ? props.display : 'grid')};
 	gap: ${(props) => (props.gap ? props.gap : '1rem')};
@@ -105,11 +106,13 @@ export const GridItem = styled('div')<{
 `;
 
 export const Section = styled('section')<{
+	bg?: string;
 	height?: string;
 	margin?: string;
 	align?: 'start' | 'center' | 'end';
 }>`
 	width: 100%;
+	background: ${(props) => props.bg};
 	margin: ${(props) => props.margin};
 	padding: 7rem 0;
 	min-height: ${(props) => props.height};
@@ -161,7 +164,7 @@ const Button = styled('button')<{
 	margin: ${(props) => props.margin};
 	padding: ${(props) => (props.padding ? props.padding : '1rem 1.5rem')};
 	border: none;
-	border-radius: 0.2rem;
+	border-radius: 0.4rem;
 	outline: none;
 	cursor: pointer;
 	box-shadow: 0 0 24px 0px rgb(0 149 255 / 5%);
@@ -174,6 +177,8 @@ const Button = styled('button')<{
 		color: ${(props) =>
 			props.colorHover
 				? props.colorHover
+				: props.colorPlate === 'secondary'
+				? `rgb(${props.theme.color.secondary})`
 				: `rgb(${props.theme.color.primary})`};
 	}
 `;
@@ -267,12 +272,16 @@ const Card = styled('div')<{
 
 export { default as Detail } from './detail';
 export { default as DetailGrid } from './detail/detailGrid';
+export { default as Form } from './form';
 export { default as Icon } from './icon';
 export { default as Info } from './info';
 export { default as InfoGrid } from './info/infoGrid';
+export { default as Profile } from './profile';
+export { default as ProfileGrid } from './profile/profileGrid';
 export { default as Project } from './project';
 export { default as ProjectBook } from './project/projectBook';
 export { default as ProjectGrid } from './project/projectGrid';
 export { default as SectionTitle } from './sectionTitle';
+export { default as Testimonial } from './testimonial';
 export { default as TypingTitle } from './typingTitle';
 export { Container, Button, Card };

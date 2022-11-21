@@ -8,7 +8,7 @@ const Footer = () => {
 	const Wrapper = styled('div')`
 		width: 100%;
 		padding: 1rem 0;
-		background: ${(props) => `rgb(${props.theme.color.secondary})`};
+		background: ${(props) => `rgb(${props.theme.color.purple})`};
 		color: ${(props) => props.theme.color.text};
 		display: flex;
 		justify-content: space-between;

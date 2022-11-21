@@ -37,7 +37,7 @@ const Services = () => {
 					<DetailGrid
 						grid={{
 							column: 'auto auto auto auto',
-							gap: '0',
+							gap: '2rem',
 							xl: {
 								column: 'auto auto auto',
 							},

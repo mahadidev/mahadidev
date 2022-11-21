@@ -1,3 +1,4 @@
+export { default as Clients } from './clients';
 export { default as Contact } from './contact';
 export { default as Footer } from './footer';
 export { default as Intro } from './intro';

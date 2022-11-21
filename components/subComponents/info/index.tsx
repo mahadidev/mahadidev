@@ -11,6 +11,7 @@ const Info = ({
 	icon?: string | ReactElement;
 }) => {
 	const Title = styled('h2')`
+		color: ${(props) => props.theme.color.textLight};
 		font-size: ${(props) => props.theme.fontSize.sm};
 		text-align: center;
 
@@ -20,6 +21,7 @@ const Info = ({
 	`;
 
 	const Description = styled('div')`
+		color: ${(props) => props.theme.color.text};
 		font-size: ${(props) => props.theme.fontSize.lg};
 		text-align: center;
 		font-weight: bold;
@@ -39,6 +41,7 @@ const Info = ({
 	`;
 
 	const Card = styled('div')`
+		height: max-content;
 		background: ${(props) => `rgb(${props.theme.color.white})`};
 		overflow: hidden;
 		padding: 0.9rem 1rem;
@@ -47,7 +50,7 @@ const Info = ({
 		transition: all 0.2s ease-in-out;
 
 		&:hover {
-			background: ${(props) => `rgb(${props.theme.color.primary})`};
+			background: ${(props) => `rgb(${props.theme.color.secondary})`};
 		}
 
 		&:hover ${IconWrapper} {

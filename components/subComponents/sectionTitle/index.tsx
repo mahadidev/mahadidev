@@ -18,7 +18,7 @@ const SectionTitle = ({
 	const Heading = styled('h1')`
 		font-size: ${(props) => props.theme.fontSize.xl};
 		text-align: ${align};
-		color: ${(props) => `rgb(${props.theme.color.black})`};
+		color: ${(props) => props.theme.color.text};
 	`;
 
 	const Paragraph = styled('p')`
@@ -28,7 +28,7 @@ const SectionTitle = ({
 			${align === 'right' && '0 0 0 auto'};
 		margin-top: 0.2rem;
 		text-align: ${align};
-		color: ${(props) => `rgb(${props.theme.color.black} / 70%)`};
+		color: ${(props) => props.theme.color.textLight};
 		font-size: ${(props) => props.theme.fontSize.base};
 	`;
 
