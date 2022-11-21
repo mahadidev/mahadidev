@@ -8,6 +8,11 @@ export const Grid = styled('div')<{
 	gap?: string;
 	justifyContent?: string;
 	alignItem?: string;
+	'2xl'?: {
+		display?: string;
+		column?: string;
+		gap?: string;
+	};
 	xl?: {
 		display?: string;
 		column?: string;
@@ -28,6 +33,11 @@ export const Grid = styled('div')<{
 		column?: string;
 		gap?: string;
 	};
+	xm?: {
+		display?: string;
+		column?: string;
+		gap?: string;
+	};
 }>`
 	width: 100%;
 	max-width: ${(props) => props.width};
@@ -39,6 +49,11 @@ export const Grid = styled('div')<{
 	justify-content: ${(props) => props.justifyContent};
 	align-items: ${(props) => props.alignItem};
 
+	@media (max-width: 1500px) {
+		display: ${(props) => (props.display ? props['2xl']?.display : 'grid')};
+		grid-template-columns: ${(props) => props['2xl']?.column};
+		gap: ${(props) => props['2xl']?.gap};
+	}
 	@media (max-width: 1280px) {
 		display: ${(props) => (props.display ? props.xl?.display : 'grid')};
 		grid-template-columns: ${(props) => props.xl?.column};
@@ -58,6 +73,11 @@ export const Grid = styled('div')<{
 		display: ${(props) => (props.display ? props.sm?.display : 'grid')};
 		grid-template-columns: ${(props) => props.sm?.column};
 		gap: ${(props) => props.sm?.gap};
+	}
+	@media (max-width: 400px) {
+		display: ${(props) => (props.display ? props.xm?.display : 'grid')};
+		grid-template-columns: ${(props) => props.xm?.column};
+		gap: ${(props) => props.xm?.gap};
 	}
 `;
 
@@ -122,13 +142,14 @@ export const Section = styled('section')<{
 
 	@media (max-width: 600px) {
 		overflow-x: hidden;
+		padding: 5rem 0;
 	}
 `;
 
 const Container = styled('div')<{
 	width?: string;
 }>`
-	max-width: ${(props) => (props.width === 'full' ? '100%' : '1400px')};
+	max-width: ${(props) => (props.width === 'full' ? '100%' : '1800px')};
 	width: 100%;
 	display: inherit;
 	justify-content: inherit;
@@ -136,9 +157,14 @@ const Container = styled('div')<{
 	flex-direction: inherit;
 	margin-left: auto;
 	margin-right: auto;
-	padding-left: 1rem;
-	padding-right: 1rem;
+	padding-left: 2rem;
+	padding-right: 2rem;
 	text-align: inherit;
+
+	@media (max-width: 768px) {
+		padding-left: 1rem;
+		padding-right: 1rem;
+	}
 `;
 
 const Button = styled('button')<{
@@ -162,7 +188,7 @@ const Button = styled('button')<{
 	font-weight: bold;
 	display: ${(props) => props.display};
 	margin: ${(props) => props.margin};
-	padding: ${(props) => (props.padding ? props.padding : '1rem 1.5rem')};
+	padding: ${(props) => (props.padding ? props.padding : '0.8rem 1.5rem')};
 	border: none;
 	border-radius: 0.4rem;
 	outline: none;

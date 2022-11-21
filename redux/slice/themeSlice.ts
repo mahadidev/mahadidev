@@ -26,8 +26,8 @@ const initialState: themeState = {
 	color: {
 		white: '255 255 255',
 		black: '0 0 0',
-		primary: '41 74 218',
-		secondary: '249 0 77',
+		primary: '249 0 77',
+		secondary: '41 74 218',
 		text: 'rgb(0 0 0 / 80%)',
 		textLight: 'rgb(0 0 0 / 70%)',
 		purple: '30, 34, 53',

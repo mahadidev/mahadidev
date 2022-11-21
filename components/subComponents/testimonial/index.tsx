@@ -12,7 +12,7 @@ const Testimonial = ({ data, style }: { data: any; style?: any }) => {
 	`;
 	const Item = styled('div')`
 		width: 100%;
-		background: ${(props) => `rgb(${props.theme.color.primary} / 5%)`};
+		background: ${(props) => `rgb(${props.theme.color.secondary} / 5%)`};
 		display: flex;
 		gap: 1rem;
 		align-items: center;

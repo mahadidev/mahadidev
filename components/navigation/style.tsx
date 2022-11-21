@@ -42,7 +42,7 @@ export const MenuItem = styled('p')`
 	text-transform: uppercase;
 
 	&:hover {
-		color: ${(props) => `rgb(${props.theme.color.primary})`};
+		color: ${(props) => `rgb(${props.theme.color.secondary})`};
 	}
 `;
 
@@ -59,7 +59,7 @@ export const Menu = styled('div')<{
 			padding: 0.8rem 2rem;
 
 			&:hover {
-				color: rgb(${props.theme.color.secondary});
+				color: rgb(${props.theme.color.primary});
 				background: rgb(${props.theme.color.primary} / 10%);
 			}
 		}

@@ -6,10 +6,16 @@ const Project = ({
 	thumbnail,
 	name,
 	tag,
+	visit,
+	source,
+	className,
 }: {
 	thumbnail: string;
 	name: string;
 	tag: string[];
+	visit: string | boolean;
+	source: string | boolean;
+	className?: string;
 }) => {
 	const Wrapper = styled('div')`
 		width: 100%;
@@ -52,14 +58,13 @@ const Project = ({
 	`;
 
 	const Links = styled('a')`
-		color: ${(props) => `rgb(${props.theme.color.secondary})`};
+		color: ${(props) => `rgb(${props.theme.color.primary})`};
 		text-decoration: underline;
 		cursor: pointer;
-		text-transform: uppercase;
 	`;
 
 	return (
-		<Wrapper>
+		<Wrapper className={className}>
 			<Thumbnail>
 				<img src={thumbnail} alt={'Project Thumbnail'} />
 			</Thumbnail>
@@ -72,8 +77,8 @@ const Project = ({
 			>
 				<Name>{name}</Name>
 				<Grid width="max-content" column="auto auto" gap={'1rem'}>
-					<Links>Source</Links>
-					<Links>Visit</Links>
+					{source && <Links>Source</Links>}
+					{visit && <Links>Visit</Links>}
 				</Grid>
 			</Grid>
 			<Tags>

@@ -15,8 +15,9 @@ const Info = ({
 		font-size: ${(props) => props.theme.fontSize.sm};
 		text-align: center;
 
-		@media (max-width: 390px) {
+		@media (max-width: 600px) {
 			font-size: ${(props) => props.theme.fontSize.xm};
+			font-weight: normal;
 		}
 	`;
 
@@ -37,7 +38,7 @@ const Info = ({
 		align-items: center;
 		border-radius: 100%;
 		color: ${(props) => `rgb(${props.theme.color.white})`};
-		background: ${(props) => `rgb(${props.theme.color.primary})`};
+		background: ${(props) => `rgb(${props.theme.color.secondary})`};
 	`;
 
 	const Card = styled('div')`
@@ -50,12 +51,12 @@ const Info = ({
 		transition: all 0.2s ease-in-out;
 
 		&:hover {
-			background: ${(props) => `rgb(${props.theme.color.secondary})`};
+			background: ${(props) => `rgb(${props.theme.color.primary})`};
 		}
 
 		&:hover ${IconWrapper} {
 			background: ${(props) => `rgb(${props.theme.color.white})`};
-			color: ${(props) => `rgb(${props.theme.color.primary})`};
+			color: ${(props) => `rgb(${props.theme.color.secondary})`};
 		}
 
 		&:hover ${Title} {

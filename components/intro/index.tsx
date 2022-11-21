@@ -21,7 +21,7 @@ const Intro = () => {
 		threshold: 0.5,
 		onChange(inView, entry) {
 			if (inView) {
-				// dispatch(setBg({ bg: `rgb(${themeState.color.primary} / 5%)` }));
+				// dispatch(setBg({ bg: `rgb(${themeState.color.secondary} / 5%)` }));
 			}
 		},
 	});
@@ -32,15 +32,19 @@ const Intro = () => {
 			height={`calc(100vh - ${siteState.navHeight}px)`}
 			margin={`${siteState.navHeight}px 0 0 0`}
 			align={'center'}
-			bg={`rgb(${themeState.color.primary} / 5%)`}
+			bg={`rgb(${themeState.color.secondary} / 5%)`}
 		>
 			<Container>
 				<Grid
-					display="flex"
-					gap={'2rem'}
 					justifyContent={'space-between'}
 					alignItem={'center'}
-					lg={{ display: 'block' }}
+					column={'600px 600px'}
+					xl={{
+						column: '45% 45%',
+					}}
+					md={{
+						column: '100%',
+					}}
 				>
 					<GridItem>
 						<TypingTitle
@@ -62,7 +66,7 @@ const Intro = () => {
 						/>
 					</GridItem>
 					<GridItem align="end" lg={{ align: 'center', margin: '3rem 0 0 0 ' }}>
-						<ProjectBook width="400px" data={siteState.project} />
+						<ProjectBook data={siteState.project} />
 					</GridItem>
 				</Grid>
 			</Container>

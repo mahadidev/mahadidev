@@ -59,7 +59,7 @@ const Hamburger = () => {
 				</Menu>
 				<HamburgerButtons>
 					<Button
-						bg={`rgb(${themeState.color.primary})`}
+						bg={`rgb(${themeState.color.secondary})`}
 						color={`rgb(${themeState.color.white})`}
 					>
 						Download CV

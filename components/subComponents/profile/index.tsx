@@ -16,12 +16,12 @@ const Profile = ({
 		text-align: center;
 		transition: all 0.2s ease-out;
 		cursor: pointer;
-		border: 1px solid rgb(${(props) => props.theme.color.secondary});
+		border: 1px solid rgb(${(props) => props.theme.color.primary});
 		position: relative;
 		z-index: 10;
 
 		&:hover {
-			background: ${(props) => `rgb(${props.theme.color.secondary})`};
+			background: ${(props) => `rgb(${props.theme.color.primary})`};
 			color: ${(props) => `rgb(${props.theme.color.white})`};
 		}
 
@@ -32,7 +32,7 @@ const Profile = ({
 			position: absolute;
 			top: 0;
 			left: 0;
-			background: ${(props) => `rgb(${props.theme.color.primary})`};
+			background: ${(props) => `rgb(${props.theme.color.secondary})`};
 			z-index: -1;
 			opacity: 0;
 			transition: all 0.2s ease-in-out;

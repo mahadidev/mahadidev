@@ -22,8 +22,12 @@ const Project = () => {
 				/>
 				<ProjectGrid
 					grid={{
-						column: 'auto auto auto',
+						column: 'auto auto auto auto',
 						gap: '2rem',
+						'2xl': {
+							column: 'auto auto auto',
+							gap: '1.5rem',
+						},
 						lg: {
 							column: 'auto auto',
 							gap: '1.5rem',

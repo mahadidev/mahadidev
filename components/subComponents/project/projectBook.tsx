@@ -12,9 +12,11 @@ const ProjectBook = ({
 	margin,
 }: {
 	data: {
-		name: string;
 		thumbnail: string;
+		name: string;
 		tag: string[];
+		visit: string | boolean;
+		source: string | boolean;
 	}[];
 	width?: string;
 	margin?: string;
@@ -40,11 +42,7 @@ const ProjectBook = ({
 			>
 				{data?.map((item: any, i: number) => (
 					<SwiperSlide key={i}>
-						<Project
-							name={item.name}
-							thumbnail={item.thumbnail}
-							tag={item.tag}
-						/>
+						<Project {...item} />
 					</SwiperSlide>
 				))}
 			</Swiper>

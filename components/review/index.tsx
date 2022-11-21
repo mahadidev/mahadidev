@@ -60,7 +60,7 @@ const Review = () => {
 	`;
 
 	const SemiTitle = styled('p')`
-		color: ${(props) => `rgb(${props.theme.color.primary})`};
+		color: ${(props) => `rgb(${props.theme.color.secondary})`};
 		font-weight: bold;
 	`;
 

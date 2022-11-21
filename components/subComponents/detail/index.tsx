@@ -10,7 +10,7 @@ const Detail = ({
 	buttonText,
 	width,
 }: {
-	icon:
+	icon?:
 		| 'code'
 		| 'menu'
 		| 'menuClose'
@@ -28,10 +28,13 @@ const Detail = ({
 		| 'app'
 		| 'wordpress'
 		| 'android'
-		| 'ios';
-	title: string;
-	description: string;
-	buttonText: string;
+		| 'ios'
+		| 'email'
+		| 'phone'
+		| 'location';
+	title?: string;
+	description?: string;
+	buttonText?: string;
 	width?: string;
 }) => {
 	const Card = styled('div')`
@@ -49,7 +52,7 @@ const Detail = ({
 		}
 
 		a {
-			color: ${(props) => `rgb(${props.theme.color.secondary})`};
+			color: ${(props) => `rgb(${props.theme.color.primary})`};
 			display: block;
 			text-decoration: underline;
 			cursor: pointer;
@@ -71,9 +74,10 @@ const Detail = ({
 	`;
 
 	const Title = styled('h1')`
-		font-size: ${(props) => props.theme.fontSize.lg};
+		font-size: ${(props) => props.theme.fontSize.base};
 		color: ${(props) => props.theme.color.text};
 		text-align: center;
+		text-transform: uppercase;
 	`;
 
 	const Paragraph = styled('p')`
@@ -81,16 +85,22 @@ const Detail = ({
 		color: ${(props) => props.theme.color.textLight};
 		margin-top: 0.5rem;
 		text-align: center;
+
+		@media (max-width: 600px) {
+			font-size: ${(props) => props.theme.fontSize.sm};
+		}
 	`;
 
 	return (
 		<Card>
-			<IconWrapper>
-				<Icon name={icon} />
-			</IconWrapper>
-			<Title>{title}</Title>
-			<Paragraph>{description}</Paragraph>
-			<a>{buttonText}</a>
+			{icon && (
+				<IconWrapper>
+					<Icon name={icon} />
+				</IconWrapper>
+			)}
+			{title && <Title>{title}</Title>}
+			{description && <Paragraph>{description}</Paragraph>}
+			{buttonText && <a>{buttonText}</a>}
 		</Card>
 	);
 };

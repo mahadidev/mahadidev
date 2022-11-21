@@ -11,7 +11,14 @@ const InfoGrid = ({
 	margin?: string;
 }) => {
 	return (
-		<Grid column="auto auto" width={width} margin={margin}>
+		<Grid
+			column="auto auto"
+			{...{
+				sm: { gap: '0.5rem' },
+			}}
+			width={width}
+			margin={margin}
+		>
 			{data.map((item: any, i: number) => (
 				<Info key={i} {...item} />
 			))}

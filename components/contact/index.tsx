@@ -4,6 +4,7 @@ import 'react-responsive-carousel/lib/styles/carousel.min.css';
 import { RootState, setBg, useDispatch, useSelector } from '../../redux';
 import {
 	Container,
+	DetailGrid,
 	Grid,
 	GridItem,
 	InfoGrid,
@@ -25,14 +26,55 @@ const Contact = () => {
 					align="left"
 				/>
 				<Grid
-					column="repeat(2, minmax(0, 1fr)); minmax(0, 1fr)"
-					alignItem="center"
-					lg={{
-						column: '100%',
+					{...{
+						column: 'repeat(2, minmax(0, 1fr))',
+						justifyContent: 'space-between',
+						alignItem: 'center',
+						gap: '4rem',
+						'2xl': {
+							gap: '2rem',
+						},
+						lg: {
+							column: '100%',
+						},
 					}}
 				>
 					<GridItem>
-						<Lottie animationData={contactAnimation} loop={true} />
+						<DetailGrid
+							grid={{
+								column: 'repeat(2, minmax(0, 1fr)); minmax(0, 1fr)',
+								gap: '2rem',
+								'2xl': {
+									gap: '1rem',
+								},
+								sm: {
+									column: '100%',
+									gap: '2rem',
+								},
+							}}
+							data={[
+								{
+									icon: 'phone',
+									title: 'Phone',
+									description: '+8801408094722',
+								},
+								{
+									icon: 'email',
+									title: 'Email',
+									description: 'mahadi.dev.pm@gmail.com',
+								},
+								{
+									icon: 'web',
+									title: 'Website',
+									description: 'mahadidev.vercel.app',
+								},
+								{
+									icon: 'freelancer',
+									title: 'Marketplace',
+									description: 'freelancer.com/u/mahadihasan0636',
+								},
+							]}
+						/>
 					</GridItem>
 					<GridItem>
 						<Form

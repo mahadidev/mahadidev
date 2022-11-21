@@ -27,6 +27,10 @@ const TypingTitle = ({
 		font-size: ${(props) => props.theme.fontSize.base};
 		color: ${(props) => props.theme.color.textLight};
 		margin-bottom: 1rem;
+
+		@media (max-width: 600px) {
+			font-size: ${(props) => props.theme.fontSize.sm};
+		}
 	`;
 
 	const [titleArray, setTitleArray] = useState<any>();
@@ -50,7 +54,7 @@ const TypingTitle = ({
 				style={{ fontWeight: 'bold' }}
 			/>
 			<Paragraph>{description}</Paragraph>
-			{buttonText && <Button colorPlate="secondary">{buttonText}</Button>}
+			{buttonText && <Button>{buttonText}</Button>}
 		</Wrapper>
 	);
 };

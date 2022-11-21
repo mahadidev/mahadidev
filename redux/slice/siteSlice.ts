@@ -41,7 +41,8 @@ export interface siteState {
 	project: {
 		name: string;
 		tag: string[];
-		link: string | boolean;
+		source: string | boolean;
+		visit: string | boolean;
 		thumbnail: string;
 	}[];
 	review: {
@@ -143,55 +144,64 @@ const initialState: siteState = {
 		{
 			name: 'Cosmetics Shop',
 			tag: ['WordPress', 'jQuery', 'BootStrap'],
-			link: 'https://beauty-boulevard.se',
 			thumbnail: 'projects/beauty_boulevard/thumbnail.png',
+			source: false,
+			visit: 'https://beauty-boulevard.se',
 		},
 		{
 			name: 'Kina Kata',
 			tag: ['HTML', 'BootStrap', 'jQuery', 'PHP'],
-			link: '#',
+			source: 'https://github.com/mahadidev/kina-kata',
+			visit: 'https://kinakata.vercel.app',
 			thumbnail: 'projects/kina_kata/thumbnail.png',
 		},
 		{
 			name: 'Equipment Rental',
 			tag: ['React', 'BootStrap'],
-			link: '#',
+			visit: false,
+			source: false,
 			thumbnail: 'projects/geo_rental_ab/thumbnail.png',
 		},
 		{
 			name: 'Delivery Services',
 			tag: ['React', 'BootStrap'],
-			link: 'https://stockholmseltech.se',
+			visit: 'https://stockholmseltech.se',
+			source: false,
 			thumbnail: 'projects/stockholmseltech/thumbnail.png',
 		},
 		{
 			name: 'UK Restaurant',
 			tag: ['HTML', 'BootStrap', 'jQuery', 'PHP'],
-			link: 'https://www.ohindia.co.uk/',
+			visit: 'https://www.ohindia.co.uk/',
+			source: false,
 			thumbnail: 'projects/oh_india/thumbnail.png',
 		},
 		{
 			name: 'Restaurant Website',
 			tag: ['HTML', 'BootStrap', 'jQuery', 'PHP'],
-			link: '#',
+			visit: false,
+			source: false,
 			thumbnail: 'projects/on_india_2/thumbnail.png',
 		},
 		{
 			name: 'Halal Foods',
 			tag: ['HTML', 'BootStrap', 'jQuery', 'PHP'],
-			link: '#',
+			visit: false,
+			source: false,
 			thumbnail: 'projects/halal_food/thumbnail.png',
 		},
 		{
 			name: 'AVS Portal',
 			tag: ['HTML', 'BootStrap', 'jQuery', 'PHP'],
-			link: '#',
+			visit: false,
+			source: false,
 			thumbnail: 'projects/avs_portal/thumbnail.png',
 		},
 		// {
 		// 	name: 'Engineering Company',
 		// 	tag: ['WordPress', 'PHP', 'JavaScript', 'BootStrap'],
-		// 	link: 'https://beauty-boulevard.se',
+		// 	visit: false,
+		// 	source: false,
 		// 	thumbnail: 'projects/haynes_cad/thumbnail.png',
 		// },
 	],

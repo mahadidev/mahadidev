@@ -7,7 +7,7 @@ const DetailGrid = ({
 	grid,
 }: {
 	data: {
-		icon:
+		icon?:
 			| 'code'
 			| 'menu'
 			| 'menuClose'
@@ -25,10 +25,13 @@ const DetailGrid = ({
 			| 'app'
 			| 'wordpress'
 			| 'android'
-			| 'ios';
-		title: string;
-		description: string;
-		buttonText: string;
+			| 'ios'
+			| 'email'
+			| 'phone'
+			| 'location';
+		title?: string;
+		description?: string;
+		buttonText?: string;
 	}[];
 	grid: any;
 }) => {

@@ -1,20 +1,45 @@
 import React, { ReactElement } from 'react';
 import styled from 'styled-components';
-import { Grid, Project } from '../index';
+import { Button, Grid, Project } from '../index';
 
 const ProjectGrid = ({
 	data,
 	grid,
 }: {
-	data: { name: string; value?: string; icon?: string | ReactElement }[];
+	data: {
+		thumbnail: string;
+		name: string;
+		tag: string[];
+		visit: string | boolean;
+		source: string | boolean;
+	}[];
 	grid?: any;
 }) => {
+	const Showcase = styled(Grid)`
+		button {
+			display: none;
+			@media (max-width: 600px) {
+				display: block;
+			}
+		}
+	`;
+
+	const Item = styled(Project)`
+		@media (max-width: 600px) {
+			&:nth-last-child(-n + 6) {
+				display: none;
+			}
+		}
+	`;
+
 	return (
-		<Grid {...grid}>
+		<Showcase {...grid}>
 			{data.map((item: any, i: number) => (
-				<Project key={i} {...item} />
+				<Item key={i} {...item} />
 			))}
-		</Grid>
+
+			<Button colorPlate="secondary">VIEW ALL</Button>
+		</Showcase>
 	);
 };
 

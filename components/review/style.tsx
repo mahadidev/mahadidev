@@ -16,7 +16,7 @@ export const SectionTitle = styled('h1')`
 	font-size: ${(props) => props.theme.fontSize.xl};
 `;
 export const SemiTitle = styled('p')`
-	color: ${(props) => `rgb(${props.theme.color.primary})`};
+	color: ${(props) => `rgb(${props.theme.color.secondary})`};
 	font-weight: bold;
 `;
 export const Desc = styled('p')`
