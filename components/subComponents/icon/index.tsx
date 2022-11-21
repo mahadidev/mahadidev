@@ -16,8 +16,11 @@ import {
 } from 'react-icons/ai';
 import { BsCodeSquare, BsWordpress } from 'react-icons/bs';
 import { GrFacebookOption } from 'react-icons/gr';
-import { IoLocationOutline } from 'react-icons/io';
-import { MdOutlineColorLens, MdOutlineWeb } from 'react-icons/md';
+import {
+	MdOutlineColorLens,
+	MdOutlineLocationOn,
+	MdOutlineWeb,
+} from 'react-icons/md';
 import { SiFreelancer } from 'react-icons/si';
 
 const Icon = ({
@@ -67,7 +70,7 @@ const Icon = ({
 		ios: <AiOutlineApple />,
 		email: <AiOutlineMail />,
 		phone: <AiOutlinePhone />,
-		location: <IoLocationOutline />,
+		location: <MdOutlineLocationOn />,
 	});
 
 	return iconList[name];
