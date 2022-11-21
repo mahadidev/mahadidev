@@ -1,4 +1,5 @@
 import React, { useEffect } from 'react';
+import { Element } from 'react-scroll';
 import { createGlobalStyle, ThemeProvider } from 'styled-components';
 import { Clients, Contact, Intro, Project, Services } from '../components';
 import { RootState, useSelector } from '../redux';
@@ -28,10 +29,18 @@ const HomePage = () => {
 	return (
 		<ThemeProvider theme={theme}>
 			<GlobalStyle />
-			<Intro />
-			<Services />
-			<Project />
-			<Contact />
+			<Element name="Home">
+				<Intro />
+			</Element>
+			<Element name="Services">
+				<Services />
+			</Element>
+			<Element name="Project">
+				<Project />
+			</Element>
+			<Element name="Contact">
+				<Contact />
+			</Element>
 		</ThemeProvider>
 	);
 };

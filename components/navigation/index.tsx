@@ -1,4 +1,5 @@
 import React, { useEffect, useRef } from 'react';
+import { Link } from 'react-scroll';
 import styled, { ThemeProvider } from 'styled-components';
 import { RootState, setNavHeight, useDispatch, useSelector } from '../../redux';
 import { Button, Container, Icon } from '../subComponents';
@@ -35,7 +36,17 @@ const Navigation = () => {
 								},
 								i: number
 							) => (
-								<MenuItem key={i}>{item.name}</MenuItem>
+								<Link
+									key={i}
+									activeClass="active"
+									to={item.name}
+									spy={true}
+									smooth={true}
+									offset={-(siteState?.navHeight ? siteState?.navHeight : 100)}
+									duration={500}
+								>
+									<MenuItem>{item.name}</MenuItem>
+								</Link>
 							)
 						)}
 					</Menu>
