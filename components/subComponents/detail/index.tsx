@@ -100,7 +100,15 @@ const Detail = ({
 			)}
 			{title && <Title>{title}</Title>}
 			{description && <Paragraph>{description}</Paragraph>}
-			{buttonText && <a>{buttonText}</a>}
+			{buttonText && (
+				<a
+					href={'https://www.freelancer.com/u/mahadihasan0636'}
+					target="_blank"
+					rel="noreferrer"
+				>
+					{buttonText}
+				</a>
+			)}
 		</Card>
 	);
 };

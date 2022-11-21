@@ -1,4 +1,5 @@
-import React from 'react';
+import emailjs from '@emailjs/browser';
+import React, { useRef, useState } from 'react';
 import styled from 'styled-components';
 import { Button } from '../index';
 
@@ -6,15 +7,22 @@ const Form = ({
 	field,
 	style,
 	buttonText,
+	email,
 }: {
 	field: {
 		label: string;
 		name: string;
 		placeholder: string;
 		type: string;
+		required?: boolean;
 	}[];
 	style?: any;
 	buttonText: any;
+	email?: {
+		template_id: string;
+		service_id: string;
+		public_key: string;
+	};
 }) => {
 	const Wrapper = styled('form')`
 		width: 100%;
@@ -61,8 +69,40 @@ const Form = ({
 		}
 	`;
 
+	const formRef = useRef<any>();
+	const [isLoading, setIsLoading] = useState(false);
+	const onSubmit = (e: any) => {
+		setIsLoading(true);
+
+		if (email && formRef) {
+			emailjs
+				.sendForm(
+					email.service_id,
+					email.template_id,
+					formRef.current,
+					email.public_key
+				)
+				.then(
+					(result) => {
+						console.log(result.text);
+						setIsLoading(false);
+					},
+					(error) => {
+						console.log(error.text);
+						setIsLoading(false);
+					}
+				);
+		}
+	};
+
 	return (
-		<Wrapper>
+		<Wrapper
+			onSubmit={(e) => {
+				e.preventDefault();
+				onSubmit(e);
+			}}
+			ref={formRef}
+		>
 			{field.map((item: any, i: number) => {
 				if (item.type !== 'textarea') {
 					return (
@@ -71,6 +111,7 @@ const Form = ({
 								type={item.type}
 								name={item.name}
 								placeholder={item.placeholder}
+								required={item.required}
 							/>
 						</Group>
 					);
@@ -84,13 +125,16 @@ const Form = ({
 								name={item.name}
 								placeholder={item.placeholder}
 								rows={4}
+								required={item.required}
 							/>
 						</Group>
 					);
 				}
 			})}
 
-			<Button type={'button'}>{buttonText}</Button>
+			<Button type={'submit'} disabled={isLoading}>
+				{isLoading ? 'loading' : buttonText}
+			</Button>
 		</Wrapper>
 	);
 };

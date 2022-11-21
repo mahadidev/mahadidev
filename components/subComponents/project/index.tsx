@@ -13,8 +13,8 @@ const Project = ({
 	thumbnail: string;
 	name: string;
 	tag: string[];
-	visit: string | boolean;
-	source: string | boolean;
+	visit: string | false;
+	source: string | false;
 	className?: string;
 }) => {
 	const Wrapper = styled('div')`
@@ -77,8 +77,16 @@ const Project = ({
 			>
 				<Name>{name}</Name>
 				<Grid width="max-content" column="auto auto" gap={'1rem'}>
-					{source && <Links>Source</Links>}
-					{visit && <Links>Visit</Links>}
+					{source && (
+						<Links href={source} target="_blank">
+							Source
+						</Links>
+					)}
+					{visit && (
+						<Links href={visit} target="_blank">
+							Visit
+						</Links>
+					)}
 				</Grid>
 			</Grid>
 			<Tags>

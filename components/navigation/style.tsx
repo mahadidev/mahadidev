@@ -42,7 +42,7 @@ export const MenuItem = styled('p')`
 	text-transform: uppercase;
 
 	&:hover {
-		color: ${(props) => `rgb(${props.theme.color.secondary})`};
+		color: ${(props) => `rgb(${props.theme.color.primary})`};
 	}
 `;
 

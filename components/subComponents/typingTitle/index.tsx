@@ -54,7 +54,15 @@ const TypingTitle = ({
 				style={{ fontWeight: 'bold' }}
 			/>
 			<Paragraph>{description}</Paragraph>
-			{buttonText && <Button>{buttonText}</Button>}
+			{buttonText && (
+				<a
+					href={'https://www.freelancer.com/u/mahadihasan0636'}
+					target="_blank"
+					rel="noreferrer"
+				>
+					<Button>{buttonText}</Button>
+				</a>
+			)}
 		</Wrapper>
 	);
 };

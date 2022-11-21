@@ -1,18 +1,13 @@
-import Lottie from 'lottie-react';
-import React from 'react';
-import 'react-responsive-carousel/lib/styles/carousel.min.css';
-import { RootState, setBg, useDispatch, useSelector } from '../../redux';
+import React, { createRef, useEffect } from 'react';
+import { RootState, useSelector } from '../../redux';
 import {
 	Container,
 	DetailGrid,
 	Grid,
 	GridItem,
-	InfoGrid,
 	SectionTitle,
-	Testimonial,
 } from '../subComponents';
 import { Form, Section } from '../subComponents/index';
-import contactAnimation from './contact-us.json';
 
 const Contact = () => {
 	const siteState = useSelector((state: RootState) => state.site);
@@ -84,12 +79,14 @@ const Contact = () => {
 									placeholder: 'Full Name',
 									type: 'text',
 									name: 'name',
+									required: true,
 								},
 								{
 									label: 'Email Address',
 									placeholder: 'Email Address',
 									type: 'email',
 									name: 'email',
+									required: true,
 								},
 								{
 									label: 'Subject',
@@ -102,8 +99,14 @@ const Contact = () => {
 									placeholder: 'Message',
 									type: 'textarea',
 									name: 'message',
+									required: true,
 								},
 							]}
+							email={{
+								service_id: 'service_zy2h795',
+								template_id: 'template_odlu761',
+								public_key: 'qm7CspCnwDE-z1cGG',
+							}}
 							buttonText={'Send Email'}
 						/>
 					</GridItem>
