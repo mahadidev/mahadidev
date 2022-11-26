@@ -1,5 +1,6 @@
 import { motion } from 'framer-motion';
 import React from 'react';
+import { Link } from 'react-scroll';
 import { RootState, setSidebar, useDispatch, useSelector } from '../../redux';
 import { Button, Container, Icon } from '../subComponents';
 import {
@@ -53,13 +54,26 @@ const Hamburger = () => {
 							},
 							i: number
 						) => (
-							<MenuItem key={i}>{item.name}</MenuItem>
+							<Link
+								key={i}
+								activeClass="active"
+								to={item.name}
+								spy={true}
+								smooth={true}
+								offset={-(siteState?.navHeight ? siteState?.navHeight : 100)}
+								duration={500}
+								onSetActive={() => {
+									dispatch(setSidebar(false));
+								}}
+							>
+								<MenuItem>{item.name}</MenuItem>
+							</Link>
 						)
 					)}
 				</Menu>
 				<HamburgerButtons>
 					<Button
-						bg={`rgb(${themeState.color.secondary})`}
+						bg={`rgb(${themeState.color.primary})`}
 						color={`rgb(${themeState.color.white})`}
 					>
 						Download CV
