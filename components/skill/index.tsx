@@ -7,7 +7,7 @@ const Skill = () => {
 	const themeState = useSelector((state: RootState) => state.theme);
 
 	return (
-		<Section bg={`rgb(${themeState.color.primary} / 30%)`}>
+		<Section bg={`rgb(${themeState.color.primary} / 5%)`}>
 			<Container>
 				<SectionTitle
 					title="Skills"
