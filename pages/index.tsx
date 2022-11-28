@@ -42,7 +42,7 @@ const HomePage = () => {
 			<Element name="Services">
 				<Services />
 			</Element>
-			<Element name="Skill">
+			<Element name="Skills">
 				<Skill />
 			</Element>
 			<Element name="Project">

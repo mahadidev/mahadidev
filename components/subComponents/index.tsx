@@ -141,7 +141,10 @@ export const Section = styled('section')<{
 	display: flex;
 	flex-direction: column;
 	justify-content: ${(props) => props.align};
-	position: ${(props) => props.position} @media (max-width: 600px) {
+	position: ${(props) => props.position};
+	overflow-x: hidden;
+
+	@media (max-width: 600px) {
 		overflow-x: hidden;
 		padding: 5rem 0;
 	}

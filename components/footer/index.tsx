@@ -23,6 +23,17 @@ const Footer = () => {
 	const CopyRightText = styled('p')`
 		width: 100%;
 		color: ${(props) => `rgb(${props.theme.color.white} / 80%)`};
+
+		@media (max-width: 768px) {
+			text-align: center;
+			margin-bottom: 1rem;
+		}
+	`;
+
+	const FooterSocial = styled(Social)`
+		@media (max-width: 768px) {
+			grid-template-columns: repeat(7, minmax(0, 1fr));
+		}
 	`;
 
 	return (
@@ -30,7 +41,7 @@ const Footer = () => {
 			<Wrapper>
 				<Container>
 					<CopyRightText>All Right reversed by Mahadi Hasan</CopyRightText>
-					<Social
+					<FooterSocial
 						bg={'none'}
 						padding={'0.5rem'}
 						color={`rgb(${themeState.color.white} / 80%)`}

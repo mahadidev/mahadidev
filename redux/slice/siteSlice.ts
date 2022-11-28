@@ -87,7 +87,7 @@ const initialState: siteState = {
 			icon: 'service',
 		},
 		{
-			name: 'Skill',
+			name: 'Skills',
 			link: '#',
 			icon: 'skill',
 		},

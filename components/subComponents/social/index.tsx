@@ -12,6 +12,7 @@ const Social = ({
 	color,
 	borderRadius,
 	hover,
+	className,
 }: {
 	text?: boolean;
 	margin?: string;
@@ -24,6 +25,7 @@ const Social = ({
 		bg: string;
 		color: string;
 	};
+	className?: string;
 }) => {
 	const siteState = useSelector((state: RootState) => state.site);
 
@@ -43,13 +45,14 @@ const Social = ({
 
 		@media (max-width: 600px) {
 			display: grid;
-			grid-template-columns: repeat(2, minmax(0, 1fr)); minmax(0, 1fr);
-			justify-content: start;
+			grid-template-columns: repeat(4, minmax(0, 1fr)); minmax(0, 1fr);
+			justify-content: center;
 		}
 	`;
 
 	const Item = styled('a')`
 		display: flex;
+		justify-content: center;
 		align-items: center;
 		gap: 0.5rem;
 		padding: ${padding ? padding : '0.7rem'};
@@ -75,7 +78,7 @@ const Social = ({
 	`;
 
 	return (
-		<Wrapper>
+		<Wrapper className={className}>
 			{siteState?.social.map((item: any, i: number) => (
 				<Item key={i} href={item.link} target="_blank">
 					<Icon name={item.icon} /> {text && item.name}
