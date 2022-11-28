@@ -38,7 +38,7 @@ const Contact = () => {
 						<DetailGrid
 							grid={{
 								column: 'repeat(2, minmax(0, 1fr)); minmax(0, 1fr)',
-								gap: '2rem',
+								gap: '1rem',
 								'2xl': {
 									gap: '1rem',
 								},

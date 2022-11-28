@@ -31,7 +31,7 @@ const Project = ({
 	`;
 
 	const Thumbnail = styled('div')`
-		background: #ebebeb;
+		background: ${(props) => `rgb(${props.theme.color.black} / 5%)`};
 		border-radius: 0.5rem;
 		overflow: hidden;
 

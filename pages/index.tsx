@@ -45,7 +45,7 @@ const HomePage = () => {
 			<Element name="Skills">
 				<Skill />
 			</Element>
-			<Element name="Project">
+			<Element name="Projects">
 				<Project />
 			</Element>
 			<Element name="Contact">

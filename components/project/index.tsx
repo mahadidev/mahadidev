@@ -23,17 +23,18 @@ const Project = () => {
 				<ProjectGrid
 					grid={{
 						column: 'auto auto auto auto',
-						gap: '2rem',
+						gap: '0.5rem',
 						'2xl': {
 							column: 'auto auto auto',
-							gap: '1.5rem',
+							gap: '0.5rem',
 						},
 						lg: {
 							column: 'auto auto',
-							gap: '1.5rem',
+							gap: '0.5rem',
 						},
 						sm: {
 							column: 'auto',
+							gap: '1rem',
 						},
 					}}
 					data={SiteState.project}

@@ -92,7 +92,7 @@ const initialState: siteState = {
 			icon: 'skill',
 		},
 		{
-			name: 'Project',
+			name: 'Projects',
 			link: '#',
 			icon: 'project',
 		},
