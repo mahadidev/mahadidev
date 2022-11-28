@@ -4,9 +4,10 @@ import { Container, Section, SectionTitle, SkillGrid } from '../subComponents';
 
 const Skill = () => {
 	const siteState = useSelector((state: RootState) => state.site);
+	const themeState = useSelector((state: RootState) => state.theme);
 
 	return (
-		<Section>
+		<Section bg={`rgb(${themeState.color.primary} / 30%)`}>
 			<Container>
 				<SectionTitle
 					title="Skills"
