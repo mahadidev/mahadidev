@@ -23,7 +23,7 @@ const Skill = ({ name, icon }: { name: string; icon: any }) => {
 
 	const IconWrapper = styled('div')`
 		width: max-content;
-		font-size: ${(props) => props.theme.fontSize.lg};
+		font-size: ${(props) => props.theme.fontSize.xl};
 		color: ${(props) => `rgb(${props.theme.color.black})`};
 		margin: auto;
 	`;

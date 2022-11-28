@@ -15,7 +15,7 @@ export const Nav = styled('nav')`
 		align-items: center;
 	}
 
-	@media (max-width: 768px) {
+	@media (max-width: 992px) {
 		.nav__container {
 			display: none;
 		}

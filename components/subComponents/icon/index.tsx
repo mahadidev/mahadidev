@@ -5,6 +5,7 @@ import {
 	AiOutlineApple,
 	AiOutlineAppstore,
 	AiOutlineClose,
+	AiOutlineDownload,
 	AiOutlineFundProjectionScreen,
 	AiOutlineGithub,
 	AiOutlineGooglePlus,
@@ -27,7 +28,7 @@ import {
 	DiStackoverflow,
 	DiWordpress,
 } from 'react-icons/di';
-import { FaLaravel } from 'react-icons/fa';
+import { FaLaravel, FaPhp } from 'react-icons/fa';
 import { GrFacebookOption } from 'react-icons/gr';
 import {
 	MdOutlineColorLens,
@@ -60,6 +61,7 @@ const Icon = ({
 		| 'whatsapp'
 		| 'freelancer'
 		| 'user'
+		| 'download'
 		| 'web'
 		| 'design'
 		| 'app'
@@ -112,13 +114,14 @@ const Icon = ({
 		npm: <DiNpm />,
 		javascript: <DiJavascript />,
 		react: <DiReact />,
-		php: <DiPhp />,
+		php: <FaPhp />,
 		laravel: <FaLaravel />,
 		nextjs: <TbBrandNextjs />,
 		redux: <SiRedux />,
 		typescript: <SiTypescript />,
 		tailwind: <SiTailwindcss />,
 		wordpress: <DiWordpress />,
+		download: <AiOutlineDownload />,
 	});
 
 	return iconList[name];

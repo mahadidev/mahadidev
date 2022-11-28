@@ -9,11 +9,9 @@ const FloatSocial = () => {
 	const Wrapper = styled('div')`
 		width: max-content;
 		height: fit-content;
-		position: absolute;
-		left: 0;
-		bottom: 5rem;
 		margin: auto;
 		display: flex;
+		flex-wrap: wrap;
 		align-items: center;
 		gap: 1rem;
 	`;

@@ -37,7 +37,8 @@ const Social = ({
 		max-width: 100%;
 		display: flex;
 		${width && `justify-content: space-between;`}
-		gap: 1rem;
+		gap: 0.5rem;
+		flex-wrap: wrap;
 		margin: ${margin};
 
 		@media (max-width: 600px) {
