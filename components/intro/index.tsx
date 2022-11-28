@@ -3,11 +3,13 @@ import { useInView } from 'react-intersection-observer';
 import { RootState, setBg, useDispatch, useSelector } from '../../redux';
 import {
 	Container,
+	FloatSocial,
 	Grid,
 	GridItem,
 	InfoGrid,
 	ProjectBook,
 	Section,
+	Social,
 	TypingTitle,
 } from '../subComponents';
 
@@ -33,6 +35,7 @@ const Intro = () => {
 			margin={`${siteState.navHeight}px 0 0 0`}
 			align={'center'}
 			bg={`rgb(${themeState.color.secondary} / 5%)`}
+			position="relative"
 		>
 			<Container>
 				<Grid
@@ -64,6 +67,7 @@ const Intro = () => {
 							margin={'1rem 0 0 0'}
 							data={siteState.introBox}
 						/>
+						<Social width="100%" margin="1rem 0 0 0" text={false} />
 					</GridItem>
 					<GridItem align="end" lg={{ align: 'center', margin: '3rem 0 0 0 ' }}>
 						<ProjectBook data={siteState.project} />

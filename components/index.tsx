@@ -6,3 +6,4 @@ export { default as Navigation } from './navigation';
 export { default as Project } from './project';
 export { default as Review } from './review';
 export { default as Services } from './services';
+export { default as Skill } from './skill';

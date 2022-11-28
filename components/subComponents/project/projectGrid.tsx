@@ -38,7 +38,7 @@ const ProjectGrid = ({
 				<Item key={i} {...item} />
 			))}
 
-			<Button colorPlate="secondary">VIEW ALL</Button>
+			<Button colorPlate="primary">VIEW ALL</Button>
 		</Showcase>
 	);
 };

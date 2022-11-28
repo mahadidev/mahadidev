@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import {
+	AiFillLinkedin,
 	AiOutlineAndroid,
 	AiOutlineApple,
 	AiOutlineAppstore,
@@ -13,15 +14,33 @@ import {
 	AiOutlinePhone,
 	AiOutlineSkype,
 	AiOutlineUser,
+	AiOutlineWhatsApp,
+	AiOutlineYoutube,
 } from 'react-icons/ai';
 import { BsCodeSquare, BsWordpress } from 'react-icons/bs';
+import { CiInstagram } from 'react-icons/ci';
+import {
+	DiJavascript,
+	DiNpm,
+	DiPhp,
+	DiReact,
+	DiStackoverflow,
+	DiWordpress,
+} from 'react-icons/di';
+import { FaLaravel } from 'react-icons/fa';
 import { GrFacebookOption } from 'react-icons/gr';
 import {
 	MdOutlineColorLens,
 	MdOutlineLocationOn,
 	MdOutlineWeb,
 } from 'react-icons/md';
-import { SiFreelancer } from 'react-icons/si';
+import {
+	SiFreelancer,
+	SiRedux,
+	SiTailwindcss,
+	SiTypescript,
+} from 'react-icons/si';
+import { TbBrandNextjs } from 'react-icons/tb';
 
 const Icon = ({
 	name,
@@ -37,6 +56,8 @@ const Icon = ({
 		| 'github'
 		| 'skype'
 		| 'google'
+		| 'instagram'
+		| 'whatsapp'
 		| 'freelancer'
 		| 'user'
 		| 'web'
@@ -47,7 +68,20 @@ const Icon = ({
 		| 'ios'
 		| 'email'
 		| 'phone'
-		| 'location';
+		| 'location'
+		| 'linkedin'
+		| 'youtube'
+		| 'npm'
+		| 'javascript'
+		| 'react'
+		| 'php'
+		| 'laravel'
+		| 'nextjs'
+		| 'redux'
+		| 'typescript'
+		| 'tailwind'
+		| 'wordpress'
+		| 'stackoverflow';
 }) => {
 	const [iconList] = useState({
 		code: <BsCodeSquare />,
@@ -60,17 +94,31 @@ const Icon = ({
 		github: <AiOutlineGithub />,
 		skype: <AiOutlineSkype />,
 		google: <AiOutlineGooglePlus />,
+		instagram: <CiInstagram />,
+		whatsapp: <AiOutlineWhatsApp />,
 		freelancer: <SiFreelancer />,
 		user: <AiOutlineUser />,
 		web: <MdOutlineWeb />,
 		design: <MdOutlineColorLens />,
 		app: <MdOutlineColorLens />,
-		wordpress: <MdOutlineColorLens />,
 		android: <AiOutlineAndroid />,
 		ios: <AiOutlineApple />,
 		email: <AiOutlineMail />,
 		phone: <AiOutlinePhone />,
 		location: <MdOutlineLocationOn />,
+		stackoverflow: <DiStackoverflow />,
+		linkedin: <AiFillLinkedin />,
+		youtube: <AiOutlineYoutube />,
+		npm: <DiNpm />,
+		javascript: <DiJavascript />,
+		react: <DiReact />,
+		php: <DiPhp />,
+		laravel: <FaLaravel />,
+		nextjs: <TbBrandNextjs />,
+		redux: <SiRedux />,
+		typescript: <SiTypescript />,
+		tailwind: <SiTailwindcss />,
+		wordpress: <DiWordpress />,
 	});
 
 	return iconList[name];

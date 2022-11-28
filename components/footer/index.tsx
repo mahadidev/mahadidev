@@ -1,10 +1,11 @@
 import React from 'react';
 import styled, { ThemeProvider } from 'styled-components';
 import { RootState, useSelector } from '../../redux';
-import { Container } from '../subComponents';
+import { Container, Social } from '../subComponents';
 
 const Footer = () => {
 	const themeState = useSelector((store: RootState) => store.theme);
+
 	const Wrapper = styled('div')`
 		width: 100%;
 		padding: 1rem 0;
@@ -13,12 +14,15 @@ const Footer = () => {
 		display: flex;
 		justify-content: space-between;
 		align-items: center;
-		text-align: center;
+
+		@media (max-width: 768px) {
+			flex-direction: column;
+		}
 	`;
 
 	const CopyRightText = styled('p')`
 		width: 100%;
-		color: ${(props) => `rgb(${props.theme.color.white})`};
+		color: ${(props) => `rgb(${props.theme.color.white} / 80%)`};
 	`;
 
 	return (
@@ -26,6 +30,12 @@ const Footer = () => {
 			<Wrapper>
 				<Container>
 					<CopyRightText>All Right reversed by Mahadi Hasan</CopyRightText>
+					<Social
+						bg={'none'}
+						padding={'0.5rem'}
+						color={`rgb(${themeState.color.white} / 80%)`}
+						text={false}
+					/>
 				</Container>
 			</Wrapper>
 		</ThemeProvider>

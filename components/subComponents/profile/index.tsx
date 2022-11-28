@@ -5,10 +5,12 @@ const Profile = ({
 	name,
 	logo,
 	link,
+	borderRight,
 }: {
 	name: string;
 	logo?: string;
 	link?: string;
+	borderRight?: string;
 }) => {
 	const Wrapper = styled('div')`
 		width: max-content;
@@ -16,7 +18,11 @@ const Profile = ({
 		text-align: center;
 		transition: all 0.2s ease-out;
 		cursor: pointer;
-		border: 1px solid rgb(${(props) => props.theme.color.primary});
+		${(props) =>
+			borderRight &&
+			`
+			border-right: 1px solid rgb(${props.theme.color.primary});
+		`}
 		position: relative;
 		z-index: 10;
 

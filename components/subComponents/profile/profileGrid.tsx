@@ -26,10 +26,13 @@ const ProfileGrid = ({ data }: { data: any }) => {
 
 	return (
 		<GridWrapper>
-			<Grid column="repeat(4, minmax(0, 1fr)); minmax(0, 1fr)" gap={'0'}>
+			<Grid
+				column="repeat(auto-fill, minmax(0, 1fr)); minmax(0, 1fr)"
+				gap={'0'}
+			>
 				{data.map(
 					(item: { name: string; logo: string; link: string }, i: number) => (
-						<Profile {...item} key={i} />
+						<Profile borderRight="1px" {...item} key={i} />
 					)
 				)}
 			</Grid>

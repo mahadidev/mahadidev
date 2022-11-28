@@ -48,6 +48,7 @@ export const Grid = styled('div')<{
 	grid-template-columns: ${(props) => props.column};
 	justify-content: ${(props) => props.justifyContent};
 	align-items: ${(props) => props.alignItem};
+	flex-wrap: wrap;
 
 	@media (max-width: 1500px) {
 		display: ${(props) => (props.display ? props['2xl']?.display : 'grid')};
@@ -130,6 +131,7 @@ export const Section = styled('section')<{
 	height?: string;
 	margin?: string;
 	align?: 'start' | 'center' | 'end';
+	position?: string;
 }>`
 	width: 100%;
 	background: ${(props) => props.bg};
@@ -139,8 +141,7 @@ export const Section = styled('section')<{
 	display: flex;
 	flex-direction: column;
 	justify-content: ${(props) => props.align};
-
-	@media (max-width: 600px) {
+	position: ${(props) => props.position} @media (max-width: 600px) {
 		overflow-x: hidden;
 		padding: 5rem 0;
 	}
@@ -148,6 +149,7 @@ export const Section = styled('section')<{
 
 const Container = styled('div')<{
 	width?: string;
+	position?: string;
 }>`
 	max-width: ${(props) => (props.width === 'full' ? '100%' : '1800px')};
 	width: 100%;
@@ -160,6 +162,7 @@ const Container = styled('div')<{
 	padding-left: 2rem;
 	padding-right: 2rem;
 	text-align: inherit;
+	position: ${(props) => props.position};
 
 	@media (max-width: 768px) {
 		padding-left: 1rem;
@@ -308,6 +311,10 @@ export { default as Project } from './project';
 export { default as ProjectBook } from './project/projectBook';
 export { default as ProjectGrid } from './project/projectGrid';
 export { default as SectionTitle } from './sectionTitle';
+export { default as Skill } from './skill';
+export { default as SkillGrid } from './skill/skillGrid';
+export { default as Social } from './social';
+export { default as FloatSocial } from './social/floatSocial';
 export { default as Testimonial } from './testimonial';
 export { default as TypingTitle } from './typingTitle';
 export { Container, Button, Card };

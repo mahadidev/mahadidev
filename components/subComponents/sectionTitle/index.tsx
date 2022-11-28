@@ -5,15 +5,32 @@ const SectionTitle = ({
 	title,
 	description,
 	align = 'center',
+	border,
 }: {
 	title: string;
 	description?: string;
 	align?: 'left' | 'center' | 'right';
+	border?: boolean;
 }) => {
 	const Wrapper = styled('div')`
 		width: 100%;
 		margin-bottom: 3rem;
 		position: relative;
+
+		${(props) =>
+			border &&
+			`&:after {
+			position: absolute;
+			bottom: -10px;
+			left: 0;
+			right: 0;
+			margin: auto;
+			content: '';
+			width: 70px;
+			height: 3px;
+			background: rgb(${props.theme.color.primary});
+			border-radius: 0.5rem;
+		}`}
 
 		@media (max-width: 600px) {
 			&:after {

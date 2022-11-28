@@ -61,6 +61,15 @@ export interface siteState {
 		logo: string;
 		link: string;
 	}[];
+	social: {
+		name: string;
+		icon: string;
+		link: string;
+	}[];
+	skill: {
+		name: string;
+		icon: string;
+	}[];
 }
 
 const initialState: siteState = {
@@ -76,6 +85,11 @@ const initialState: siteState = {
 			name: 'Services',
 			link: '#',
 			icon: 'service',
+		},
+		{
+			name: 'Skill',
+			link: '#',
+			icon: 'skill',
 		},
 		{
 			name: 'Project',
@@ -300,6 +314,96 @@ const initialState: siteState = {
 			name: 'name',
 			logo: '',
 			link: '',
+		},
+	],
+	social: [
+		{
+			name: 'Github',
+			icon: 'github',
+			link: 'https://github.com/mahadidev',
+		},
+		{
+			name: 'Stack Overflow',
+			icon: 'stackoverflow',
+			link: 'https://stackoverflow.com/users/19997598/mahadi-hasan',
+		},
+		{
+			name: 'Kinkedin',
+			icon: 'linkedin',
+			link: 'https://www.linkedin.com/in/mahadi-hasan-99080a237/',
+		},
+		{
+			name: 'Facebook',
+			icon: 'facebook',
+			link: 'https://www.facebook.com/mrakuji/',
+		},
+		{
+			name: 'Youtube',
+			icon: 'youtube',
+			link: '#',
+		},
+		{
+			name: 'Instagram',
+			icon: 'instagram',
+			link: 'https://www.instagram.com/mahadidev/',
+		},
+		{
+			name: 'WhatsApp',
+			icon: 'whatsapp',
+			link: 'https://wa.me/+8801408094722',
+		},
+		{
+			name: 'Google',
+			icon: 'google',
+			link: 'mailto:mahadi.dev.pm@gmail.com',
+		},
+		{
+			name: 'Freelancer',
+			icon: 'freelancer',
+			link: 'https://www.freelancer.com/u/mahadihasan0636',
+		},
+		{
+			name: 'NPM',
+			icon: 'npm',
+			link: 'https://www.npmjs.com/~mahadidev',
+		},
+	],
+	skill: [
+		{
+			name: 'JavaScript',
+			icon: 'javascript',
+		},
+		{
+			name: 'React',
+			icon: 'react',
+		},
+		{
+			name: 'PHP',
+			icon: 'php',
+		},
+		{
+			name: 'Laravel',
+			icon: 'laravel',
+		},
+		{
+			name: 'Nextjs',
+			icon: 'nextjs',
+		},
+		{
+			name: 'Redux',
+			icon: 'redux',
+		},
+		{
+			name: 'TypeScript',
+			icon: 'typescript',
+		},
+		{
+			name: 'Tailwind',
+			icon: 'tailwind',
+		},
+		{
+			name: 'Wordpress',
+			icon: 'wordpress',
 		},
 	],
 };
