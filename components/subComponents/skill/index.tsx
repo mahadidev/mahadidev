@@ -2,7 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 import { Icon } from '../index';
 
-const Skill = ({ name, icon }: { name: string; icon: string }) => {
+const Skill = ({ name, icon }: { name: string; icon: any }) => {
 	const Wrapper = styled('div')`
 		background: ${(props) => `rgb(${props.theme.color.primary} / 20%)`};
 		padding: 2rem 1rem;
