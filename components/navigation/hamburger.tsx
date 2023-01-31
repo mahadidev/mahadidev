@@ -73,7 +73,7 @@ const Hamburger = () => {
           )}
         </Menu>
         <HamburgerButtons>
-          <NextLink.default href="./resume.pdf" target={"_blank"}>
+          <NextLink.default href="./mahadidev.resume.pdf" target={"_blank"}>
             <Button
               bg={`rgb(${themeState.color.primary})`}
               color={`rgb(${themeState.color.white})`}

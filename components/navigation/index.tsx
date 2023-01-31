@@ -51,7 +51,7 @@ const Navigation = () => {
               )
             )}
           </Menu>
-          <NextLink.default href="./resume.pdf" target={"_blank"}>
+          <NextLink.default href="./mahadidev.resume.pdf" target={"_blank"}>
             <Button>DOWNLOAD RESUME</Button>
           </NextLink.default>
         </Container>
