@@ -11,10 +11,9 @@
 ## 🚀 About Me
 
 ```yaml
-Name: MD. MAHADI HASAN
-Location: Bangladesh, Asia
-Status: "Building something cool 🚀"
-Learning: "Something amazing 🧠"
+Name: MAHADI HASAN
+Location: Bangladesh, Asia ( Open to relocate )
+Status: Open to work
 Pronouns: he/him
 Fun_Fact: "I think I'm crazy 😄"
 ```
