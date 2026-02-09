@@ -4,206 +4,207 @@
 </h1>
 
 <h3 align="center">
-  <i>A young passionate IT Specialist & Full-Stack Developer.</i>
+  <i>Young Founder | IT Specialist & Full-Stack Architect | Top 1% Freelancer</i>
 </h3>
 
+<p align="center">
+  <strong>Driving $100K+ Growth through Scalable Technology & Creative AI Solutions</strong>
+</p>
 
-## 🚀 About Me
+## 🚀 Professional Profile
 
 ```yaml
-Name: MAHADI HASAN
-Location: Bangladesh, Asia ( Open to relocate )
-Status: Open to work
-Pronouns: he/him
-Fun_Fact: "I think I'm crazy 😄"
+Role: IT SPECIALIST | FULL-STACK DEVELOPER
+Location: Bangladesh (Actively Relocating to Saudi Arabia / Europe)
+Experience: 3+ Years Professional (Started coding at 13)
+Specialization: High-Performance Web Apps, AI Integration, & Creative Tech Lead
+Availability: Open to Strategic Roles & High-Impact Projects
+
 ```
 
-I'm a **Freelance Full-Stack Developer** who started coding at **13 years old**. What began as a childhood curiosity has evolved into a fulfilling career spanning **3+ years** of professional experience. I specialize in building modern, scalable web applications with a focus on clean code, user experience, and performance.
+I am a results-driven **IT Specialist & Full-Stack Developer** dedicated to bridging the gap between complex engineering and business growth. With a foundation built since age 13, I have spent the last **3+ years** helping clients scale their digital presence, generating over **$100K in business growth**.
 
-Currently working remotely and always open to discussing **React, Next.js, JavaScript**, and **AI-powered solutions**. Let's build something amazing together! 🛠️
+I don’t just write code; I architect systems that solve problems. Currently focused on **React/Next.js ecosystem**, **AI-powered automation**, and **Laravel architectures**.
 
 ---
 
-## 🛠️ Tech Stack
+## 🛠️ Tech Stack & Expertise
 
-### Skills & Technologies
+### Core Competencies
 
-**Frontend Development:** HTML5, CSS3, JavaScript (ES6+), TypeScript, React.js, Next.js, Redux, jQuery, Alpine.js, Tailwind CSS, Bootstrap, Sass/SCSS
-
-**Backend Development:** PHP, Laravel Framework, Lumen API, Node.js, Express.js, REST APIs, API Development
-
-**Database & CMS:** MySQL, PostgreSQL, MongoDB, WordPress, WordPress Theme Development, WordPress Plugin Development, Sanity CMS, Headless CMS
-
-**Tools & Platforms:** Git, GitHub, Docker, Firebase, Figma, Vercel, Version Control, UI/UX Design
+* **IT Strategy & Infrastructure:** Scaling web applications and managing digital transformation.
+* **Frontend Engineering:** Crafting pixel-perfect, high-conversion interfaces (React, Next.js, TypeScript).
+* **Backend Architecture:** Robust API development and server-side logic (Node.js, Laravel).
+* **AI & Automation:** Implementing AI solutions to streamline business workflows.
 
 ---
 
 <div align="center">
 
 ### Frontend Development
+
 <table>
-  <tr>
-    <td align="center" width="100">
-      <img src="https://skillicons.dev/icons?i=html" width="48" height="48" alt="HTML" />
-      <br>HTML5
-    </td>
-    <td align="center" width="100">
-      <img src="https://skillicons.dev/icons?i=css" width="48" height="48" alt="CSS" />
-      <br>CSS3
-    </td>
-    <td align="center" width="100">
-      <img src="https://skillicons.dev/icons?i=js" width="48" height="48" alt="JavaScript" />
-      <br>JavaScript
-    </td>
-    <td align="center" width="100">
-      <img src="https://skillicons.dev/icons?i=ts" width="48" height="48" alt="TypeScript" />
-      <br>TypeScript
-    </td>
-    <td align="center" width="100">
-      <img src="https://skillicons.dev/icons?i=react" width="48" height="48" alt="React" />
-      <br>React.js
-    </td>
-    <td align="center" width="100">
-      <img src="https://skillicons.dev/icons?i=nextjs" width="48" height="48" alt="Next.js" />
-      <br>Next.js
-    </td>
-  </tr>
-  <tr>
-    <td align="center" width="100">
-      <img src="https://skillicons.dev/icons?i=jquery" width="48" height="48" alt="jQuery" />
-      <br>jQuery
-    </td>
-    <td align="center" width="100">
-      <img src="https://skillicons.dev/icons?i=redux" width="48" height="48" alt="Redux" />
-      <br>Redux
-    </td>
-    <td align="center" width="100">
-      <img src="https://skillicons.dev/icons?i=tailwind" width="48" height="48" alt="Tailwind" />
-      <br>Tailwind
-    </td>
-    <td align="center" width="100">
-      <img src="https://skillicons.dev/icons?i=bootstrap" width="48" height="48" alt="Bootstrap" />
-      <br>Bootstrap
-    </td>
-    <td align="center" width="100">
-      <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/alpinejs/alpinejs-original.svg" width="48" height="48" alt="Alpine.js" />
-      <br>Alpine.js
-    </td>
-    <td align="center" width="100">
-      <img src="https://skillicons.dev/icons?i=sass" width="48" height="48" alt="Sass" />
-      <br>Sass/SCSS
-    </td>
-  </tr>
+<tr>
+<td align="center" width="100"><img src="https://skillicons.dev/icons?i=html" width="48" alt="HTML" />
+
+
+
+HTML5</td>
+<td align="center" width="100"><img src="https://skillicons.dev/icons?i=css" width="48" alt="CSS" />
+
+
+
+CSS3</td>
+<td align="center" width="100"><img src="https://skillicons.dev/icons?i=js" width="48" alt="JS" />
+
+
+
+JavaScript</td>
+<td align="center" width="100"><img src="https://skillicons.dev/icons?i=ts" width="48" alt="TS" />
+
+
+
+TypeScript</td>
+<td align="center" width="100"><img src="https://skillicons.dev/icons?i=react" width="48" alt="React" />
+
+
+
+React.js</td>
+<td align="center" width="100"><img src="https://skillicons.dev/icons?i=nextjs" width="48" alt="Next" />
+
+
+
+Next.js</td>
+</tr>
+<tr>
+<td align="center" width="100"><img src="https://skillicons.dev/icons?i=tailwind" width="48" alt="Tailwind" />
+
+
+
+Tailwind</td>
+<td align="center" width="100"><img src="https://skillicons.dev/icons?i=bootstrap" width="48" alt="Bootstrap" />
+
+
+
+Bootstrap</td>
+<td align="center" width="100"><img src="https://skillicons.dev/icons?i=redux" width="48" alt="Redux" />
+
+
+
+Redux</td>
+<td align="center" width="100"><img src="https://skillicons.dev/icons?i=sass" width="48" alt="Sass" />
+
+
+
+Sass</td>
+<td align="center" width="100"><img src="https://skillicons.dev/icons?i=jquery" width="48" alt="jQuery" />
+
+
+
+jQuery</td>
+<td align="center" width="100"><img src="https://skillicons.dev/icons?i=figma" width="48" alt="Figma" />
+
+
+
+UI/UX Design</td>
+</tr>
 </table>
 
-### Backend Development
+### Backend & Database
+
 <table>
-  <tr>
-    <td align="center" width="100">
-      <img src="https://skillicons.dev/icons?i=php" width="48" height="48" alt="PHP" />
-      <br>PHP
-    </td>
-    <td align="center" width="100">
-      <img src="https://skillicons.dev/icons?i=laravel" width="48" height="48" alt="Laravel" />
-      <br>Laravel
-    </td>
-    <td align="center" width="100">
-      <img src="https://skillicons.dev/icons?i=nodejs" width="48" height="48" alt="Node.js" />
-      <br>Node.js
-    </td>
-    <td align="center" width="100">
-      <img src="https://skillicons.dev/icons?i=express" width="48" height="48" alt="Express" />
-      <br>Express.js
-    </td>
-    <td align="center" width="100">
-      <img src="https://raw.githubusercontent.com/laravel/lumen-artwork/master/logo/logo-blue.svg" width="48" height="48" alt="Lumen" />
-      <br>Lumen API
-    </td>
-  </tr>
+<tr>
+<td align="center" width="100"><img src="https://skillicons.dev/icons?i=php" width="48" alt="PHP" />
+
+
+
+PHP</td>
+<td align="center" width="100"><img src="https://skillicons.dev/icons?i=laravel" width="48" alt="Laravel" />
+
+
+
+Laravel</td>
+<td align="center" width="100"><img src="https://skillicons.dev/icons?i=nodejs" width="48" alt="Node" />
+
+
+
+Node.js</td>
+<td align="center" width="100"><img src="https://skillicons.dev/icons?i=express" width="48" alt="Express" />
+
+
+
+Express</td>
+<td align="center" width="100"><img src="https://skillicons.dev/icons?i=mysql" width="48" alt="MySQL" />
+
+
+
+MySQL</td>
+<td align="center" width="100"><img src="https://skillicons.dev/icons?i=mongodb" width="48" alt="MongoDB" />
+
+
+
+MongoDB</td>
+</tr>
 </table>
 
-### Database & CMS
-<table>
-  <tr>
-    <td align="center" width="100">
-      <img src="https://skillicons.dev/icons?i=mysql" width="48" height="48" alt="MySQL" />
-      <br>MySQL
-    </td>
-    <td align="center" width="100">
-      <img src="https://skillicons.dev/icons?i=mongodb" width="48" height="48" alt="MongoDB" />
-      <br>MongoDB
-    </td>
-    <td align="center" width="100">
-      <img src="https://skillicons.dev/icons?i=postgresql" width="48" height="48" alt="PostgreSQL" />
-      <br>PostgreSQL
-    </td>
-    <td align="center" width="100">
-      <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/wordpress/wordpress-original.svg" width="48" height="48" alt="WordPress" />
-      <br>WordPress
-    </td>
-    <td align="center" width="100">
-      <img src="https://www.sanity.io/static/images/logo.svg" width="48" height="48" alt="Sanity" />
-      <br>Sanity CMS
-    </td>
-  </tr>
-</table>
+### Ecosystem & Tools
 
-### Tools & Platforms
 <table>
-  <tr>
-    <td align="center" width="100">
-      <img src="https://skillicons.dev/icons?i=git" width="48" height="48" alt="Git" />
-      <br>Git
-    </td>
-    <td align="center" width="100">
-      <img src="https://skillicons.dev/icons?i=github" width="48" height="48" alt="GitHub" />
-      <br>GitHub
-    </td>
-    <td align="center" width="100">
-      <img src="https://skillicons.dev/icons?i=figma" width="48" height="48" alt="Figma" />
-      <br>Figma
-    </td>
-    <td align="center" width="100">
-      <img src="https://skillicons.dev/icons?i=firebase" width="48" height="48" alt="Firebase" />
-      <br>Firebase
-    </td>
-    <td align="center" width="100">
-      <img src="https://skillicons.dev/icons?i=docker" width="48" height="48" alt="Docker" />
-      <br>Docker
-    </td>
-    <td align="center" width="100">
-      <img src="https://skillicons.dev/icons?i=vercel" width="48" height="48" alt="Vercel" />
-      <br>Vercel
-    </td>
-  </tr>
+<tr>
+<td align="center" width="100"><img src="https://skillicons.dev/icons?i=git" width="48" alt="Git" />
+
+
+
+Git</td>
+<td align="center" width="100"><img src="https://skillicons.dev/icons?i=github" width="48" alt="GitHub" />
+
+
+
+GitHub</td>
+<td align="center" width="100"><img src="https://skillicons.dev/icons?i=docker" width="48" alt="Docker" />
+
+
+
+Docker</td>
+<td align="center" width="100"><img src="https://skillicons.dev/icons?i=firebase" width="48" alt="Firebase" />
+
+
+
+Firebase</td>
+<td align="center" width="100"><img src="https://skillicons.dev/icons?i=vercel" width="48" alt="Vercel" />
+
+
+
+Vercel</td>
+<td align="center" width="100"><img src="https://www.google.com/search?q=https://skillicons.dev/icons%3Fi%3Dwordpress" width="48" alt="WP" />
+
+
+
+CMS</td>
+</tr>
 </table>
 
 </div>
 
 ---
 
-## 🌐 Let's Connect!
+## 🌐 Let's Build the Future
 
 <div align="center">
 
-"I believe in writing clean code, continuous learning, and building products that make a difference."
-
-<p>Currently open for freelance projects and full-time opportunities. Feel free to reach out!</p>
+**"I transform vision into high-performance code, ensuring every project is a catalyst for growth."**
 
 <a href="https://www.upwork.com/freelancers/mahadidev" target="_blank">
-  <img src="https://img.shields.io/badge/Upwork-6FDA44?style=for-the-badge&logo=upwork&logoColor=white" alt="Upwork" />
-</a>
-<a href="mailto:mahadi.dev.pm@gmail.com">
-  <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
+<img src="https://www.google.com/search?q=https://img.shields.io/badge/Upwork-Top_1%2525-6FDA44%3Fstyle%3Dfor-the-badge%26logo%3Dupwork%26logoColor%3Dwhite" alt="Upwork" />
 </a>
 <a href="https://linkedin.com/in/mahadidev" target="_blank">
-  <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+<img src="https://www.google.com/search?q=https://img.shields.io/badge/LinkedIn-Connect-0077B5%3Fstyle%3Dfor-the-badge%26logo%3Dlinkedin%26logoColor%3Dwhite" alt="LinkedIn" />
 </a>
-<a href="https://github.com/mahadidev" target="_blank">
-  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
+<a href="mailto:mahadi.dev.pm@gmail.com">
+<img src="https://www.google.com/search?q=https://img.shields.io/badge/Email-Contact-D14836%3Fstyle%3Dfor-the-badge%26logo%3Dgmail%26logoColor%3Dwhite" alt="Email" />
 </a>
 <a href="https://mahadidev.vercel.app" target="_blank">
-  <img src="https://img.shields.io/badge/Website-FF5722?style=for-the-badge&logo=firefox&logoColor=white" alt="Website" />
+<img src="https://www.google.com/search?q=https://img.shields.io/badge/Portfolio-Visit-FF5722%3Fstyle%3Dfor-the-badge%26logo%3Dfirefox%26logoColor%3Dwhite" alt="Website" />
 </a>
 
 </div>
