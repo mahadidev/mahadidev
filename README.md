@@ -25,13 +25,6 @@ Experienced Full-Stack Developer and Entrepreneur with over a decade of technica
 
 ---
 
-### 📂 Featured Repositories
-- **[Multi-Tenancy-Ecommerce](https://github.com/mahadidev/Multi-Tenancy-Ecommerce-Platform)**: A TypeScript-based POS & Inventory system for online stores.
-- **[Next.js-Sanity-Store](https://github.com/mahadidev/nextjs-sanity-store)**: A modern headless CMS e-commerce solution.
-- **[Laravel-Lumen-API](https://github.com/mahadidev)**: High-performance microservices and REST API architecture.
-
----
-
 ### 📫 Connect & Hire Me
 - 🌐 **Portfolio:** [mahadidev.vercel.app](https://mahadidev.vercel.app/)
 - 💼 **LinkedIn:** [linkedin.com/in/mahadidev](https://www.linkedin.com/in/mahadidev/)
