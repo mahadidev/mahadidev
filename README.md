@@ -7,21 +7,6 @@
   <i>A young passionate IT Specialist & Full-Stack Developer.</i>
 </h3>
 
-<p align="center">
-  <a href="https://mahadidev.vercel.app" target="_blank">
-    <img src="https://img.shields.io/badge/Portfolio-FF5722?style=for-the-badge&logo=todoist&logoColor=white" alt="Portfolio" />
-  </a>
-  <a href="mailto:mahadidev7@gmail.com">
-    <img src="https://img.shields.io/badge/Email_me-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
-  </a>
-  <a href="https://linkedin.com/in/mahadidev" target="_blank">
-    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
-  </a>
-  <a href="https://twitter.com/mahadidev7" target="_blank">
-    <img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white" alt="Twitter" />
-  </a>
-</p>
-
 ---
 
 ## 🚀 About Me
@@ -210,20 +195,14 @@ Currently working remotely and always open to discussing **React, Next.js, JavaS
 <a href="https://www.upwork.com/freelancers/mahadidev" target="_blank">
   <img src="https://img.shields.io/badge/Upwork-6FDA44?style=for-the-badge&logo=upwork&logoColor=white" alt="Upwork" />
 </a>
-<a href="mailto:mahadidev7@gmail.com">
+<a href="mailto:mahadi.dev.pm@gmail.com">
   <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
 </a>
 <a href="https://linkedin.com/in/mahadidev" target="_blank">
   <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
 </a>
-<a href="https://twitter.com/mahadidev7" target="_blank">
-  <img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white" alt="Twitter" />
-</a>
 <a href="https://github.com/mahadidev" target="_blank">
   <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
-</a>
-<a href="https://discord.com/users/mahadidev7" target="_blank">
-  <img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" />
 </a>
 <a href="https://mahadidev.vercel.app" target="_blank">
   <img src="https://img.shields.io/badge/Website-FF5722?style=for-the-badge&logo=firefox&logoColor=white" alt="Website" />
