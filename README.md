@@ -1,10 +1,10 @@
 <h1 align="center">
-  Hi, I'm <a href="https://mahadidev.vercel.app" target="_blank">Mahadi Hasan</a> 
   <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="35">
+  Hi, I'm <a href="https://mahadidev.vercel.app" target="_blank">Mahadi Hasan</a> 
 </h1>
 
 <h3 align="center">
-  <i>A passionate Full-Stack Developer & AI Specialist from Bangladesh 🇧🇩</i>
+  <i>A young passionate IT Specialist & Full-Stack Developer.</i>
 </h3>
 
 <p align="center">
