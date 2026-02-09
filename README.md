@@ -7,7 +7,6 @@
   <i>A young passionate IT Specialist & Full-Stack Developer.</i>
 </h3>
 
----
 
 ## 🚀 About Me
 
