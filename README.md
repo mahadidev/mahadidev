@@ -43,6 +43,18 @@ Currently working remotely and always open to discussing **React, Next.js, JavaS
 
 ## 🛠️ Tech Stack
 
+### Skills & Technologies
+
+**Frontend Development:** HTML5, CSS3, JavaScript (ES6+), TypeScript, React.js, Next.js, Redux, jQuery, Alpine.js, Tailwind CSS, Bootstrap, Sass/SCSS
+
+**Backend Development:** PHP, Laravel Framework, Lumen API, Node.js, Express.js, REST APIs, API Development
+
+**Database & CMS:** MySQL, PostgreSQL, MongoDB, WordPress, WordPress Theme Development, WordPress Plugin Development, Sanity CMS, Headless CMS
+
+**Tools & Platforms:** Git, GitHub, Docker, Firebase, Figma, Vercel, Version Control, UI/UX Design
+
+---
+
 <div align="center">
 
 ### Frontend Development
