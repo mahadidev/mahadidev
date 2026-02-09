@@ -308,25 +308,3 @@ Currently working remotely and always open to discussing **React, Next.js, JavaS
 Made with ❤️ by [Mahadi Hasan](https://github.com/mahadidev)
 
 </div>
-
----
-
-![profile](https://user-images.githubusercontent.com/101120294/209083803-0e22e79e-c6f8-4118-9be5-c26e42d610f2.gif)
-
-<div align="center">
-
-```javascript
-const mahadi = {
-  code: ["HTML", "CSS", "JavaScript", "TypeScript", "PHP"],
-  frameworks: ["React", "Next.js", "Laravel", "Express", "Lumen"],
-  styling: ["TailwindCSS", "Bootstrap", "Sass", "Alpine.js"],
-  cms: ["WordPress", "Sanity"],
-  databases: ["MySQL", "MongoDB", "PostgreSQL"],
-  tools: ["Git", "Docker", "Figma", "Firebase"],
-  currently: "Building something cool 🚀",
-  learning: "Something amazing 🧠",
-  funFact: "I think I'm crazy 😄"
-};
-```
-
-</div>
