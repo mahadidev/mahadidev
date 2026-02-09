@@ -1,18 +1,6 @@
-<div align="center">
-
-  ![Profile Views](https://komarev.com/ghpvc/?username=mahadidev&style=for-the-badge&color=blueviolet)
-  [![Twitter Follow](https://img.shields.io/twitter/follow/mahadidev7?style=for-the-badge&logo=twitter&logoColor=white&color=1DA1F2)](https://twitter.com/mahadidev7)
-  [![GitHub followers](https://img.shields.io/github/followers/mahadidev?style=for-the-badge&logo=github&logoColor=white&color=181717)](https://github.com/mahadidev)
-
-  <img src="https://raw.githubusercontent.com/mahadidev/mahadidev/output/github-contribution-grid-snake.svg" alt="Snake Animation" />
-
-</div>
-
----
-
 <h1 align="center">
+  Hi, I'm <a href="https://mahadidev.vercel.app" target="_blank">Mahadi Hasan</a> 
   <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="35">
-  Hi, I'm <a href="https://mahadidev.vercel.app" target="_blank">Mahadi Hasan</a> 👨‍💻
 </h1>
 
 <h3 align="center">
