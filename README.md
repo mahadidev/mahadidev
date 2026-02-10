@@ -19,8 +19,8 @@ Experienced Full-Stack Developer and Entrepreneur with over a decade of technica
 | Category | Technologies |
 | :--- | :--- |
 | **Frontend** | React.js, Next.js, TypeScript, Redux, Tailwind CSS, Sass/SCSS, Alpine.js |
-| **Backend** | PHP (Laravel/Lumen), Node.js, Express.js, RESTful API Development |
-| **Database/CMS** | MySQL, PostgreSQL, MongoDB, WordPress (Custom Themes/Plugins), Sanity (Headless) |
+| **Backend** | PHP (Laravel/Lumen), Python, Java Spring, RESTful API Development |
+| **Database/CMS** | MySQL, PostgreSQL, WordPress (Custom Themes/Plugins), Sanity (Headless) |
 | **DevOps & Design** | Docker, Git/GitHub, Firebase, Vercel, Figma (UI/UX), Version Control |
 
 ---
