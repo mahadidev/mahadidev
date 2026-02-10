@@ -2,7 +2,7 @@
 
 **Top 1% Global Developer** (Freelancer.com) | **Award-Winning Innovator** (The Sociable 2024) | **Relocation Ready**
 
-Experienced Full-Stack Developer and Entrepreneur with over a decade of technical expertise. I specialize in building high-performance web ecosystems, scalable logistics platforms, and data-driven digital brands. Currently seeking opportunities as an **IT Specialist** or **Technical Manager** in **Germany, Saudi Arabia, or the UAE.**
+Experienced Full-Stack Developer and Entrepreneur with over a decade of technical expertise. I specialize in building high-performance web ecosystems, scalable logistics platforms, and data-driven digital brands. Currently seeking opportunities as an **IT Specialist** or **Technical Manager** in **Saudi Arabia, or Europe.**
 
 ---
 
